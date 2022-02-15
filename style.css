@@ -1,0 +1,61 @@
+    * {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    body {
+        background-color: #dcdcdc;
+        max-width: 500px;
+        width: 100%;
+        padding: 10px;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    .clock {
+        max-width: 500px;
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: 10%;
+        background-color: #FFF;
+        box-shadow: 0 0 5px #FFF;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+   .counter {
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+    }
+
+    button {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-family: 'Segoe UI';
+        font-size: 1.1em;
+        transition: all .5s;
+        cursor: pointer;
+        border-radius: 25px;
+    }
+
+    button:hover {
+        background-color: #a1c0d1;
+    }
+
+    button:active {
+        background-color: #111;
+    }
+
+    .bt-green {
+        background-color: #c5fdc4;
+    }
+
+    .bt-yellow {
+        background-color:#fcf4a9;
+    }
+
+    .bt-red {
+        background-color: #f88383;
+    }
